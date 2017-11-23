@@ -1,0 +1,6 @@
+usage: $ ./check_non_econdings.sh <directory> <econdding not desired 1> <econdding not desired 2> ...
+
+example: $ ./check_non_econdings.sh ./src ascii binary iso-8859-1
+ 
+The given example will print all the files in the directory ./src  
+whose econdings are not ascii, binary and iso-8859-1.
